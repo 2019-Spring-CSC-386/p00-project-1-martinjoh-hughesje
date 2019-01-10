@@ -83,7 +83,7 @@ as well as celebratory of what was achieved.
 *Start this section at the beginning of the project, and update it throughout.*
 
 https://github.com/2019-Spring-CSC-386/p00-project-1-martinjoh-hughesje/blob/master/example-README.md
-
+https://www.google.com/search?q=dehydration+sensor&client=firefox-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiU4fLuzePfAhWRUt8KHRFaCKIQ_AUIDygC&biw=1366&bih=664
 
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
