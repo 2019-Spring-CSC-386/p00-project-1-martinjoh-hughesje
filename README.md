@@ -82,12 +82,8 @@ as well as celebratory of what was achieved.
 ## References
 *Start this section at the beginning of the project, and update it throughout.*
 
-Throughout this project, you'll be used outside resources.
-Reference ALL ideas or code which are not your own, and describe and
-how you integrated the ideas or code into your program. This includes
-online sources, people who have helped you, and any other resources that
-are not solely your own contribution. Lastly, include ALL resources you
-looked at, not just the ones you ended up using directly.
+https://github.com/2019-Spring-CSC-386/p00-project-1-martinjoh-hughesje/blob/master/example-README.md
+
 
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
