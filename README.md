@@ -11,9 +11,9 @@ See example-README.md for help on how to begin.
 # P00: Project 1
 *Give your project a name and replace the above text with that name.*
 
-**Author(s)**: *Scott Heggen (replace me!)*
+**Author(s)**: *Jenna Hughes and John Martin *
 
-**Google Document**: *Paste the link to your shared Google Document here*
+**Google Document**: *https://docs.google.com/document/d/1aFm4vNCpDLIUj03oM7EaXg1spCM_F87eTSmThVaaZSk/edit?usp=sharing*
 
 ---
 ## Purpose
