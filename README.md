@@ -1,4 +1,4 @@
-### Nap time
+# Nap time
 
 **Author(s)**: Jenna Hughes and John Martin
 
@@ -12,7 +12,7 @@ Our Project needs to solve the issue of getting the right ammount of sleep. We w
 ## Initial Design Plan
 *[Fritzing website](http://fritzing.org/home/ "Fritzing website" (for our diagram)*
 
-# Outline 
+## Outline 
 - Hardware 
   - There will be a timer/clock, and device for sound connected to our Arduino divice. 
   - This will help us to deced the appropiate ammount of time on the timer, and program it so that the alarm goes off when 
@@ -25,10 +25,6 @@ Our Project needs to solve the issue of getting the right ammount of sleep. We w
   - A function to start the timmer when the button is pressed
   - A function to start the sound when the timer runs out 
   - A function to stop the sound either when the button is pressed again, or after a certain amount of beeps 
-  - Your program must follow good coding standards. 
-  Primarily, I mean your code should include meaningful functions 
-  and appropriate variables, and be formatted and commented well. 
-  Sloppy code with no structure will be penalized 
 
 
 **Sample image**:
@@ -39,10 +35,7 @@ Our Project needs to solve the issue of getting the right ammount of sleep. We w
 as projects evolve over time.
 
 ## Files
-*You'll complete this section as part of Milestone 1.*
-* List every file in your repository, and briefly summarize each file's purpose in a sentence.*
- 
--Buzzer_code.ino : This will help us to understand how to make sounds using the Arduino. 
+- Buzzer_code.ino : This will help us to understand how to make sounds using the Arduino. 
 - Button.ino : This file will help us to understand how to use the button on Arduino
 - TimeCheck.ino: this file will help us to understand exactly how to work with time on the Arduino. 
 
