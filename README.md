@@ -1,4 +1,4 @@
-# Nap time
+# Nap Time
 
 **Author(s)**: Jenna Hughes and John Martin
 
@@ -7,22 +7,24 @@
 ---
 ## Purpose
 
-Our Project needs to solve the issue of getting the right ammount of sleep. We will do this by looking up appropriate information pertaining to what is the right ammount of time a person needs in order to nap, and feel fully rested. Once the user selects the amount of time that works for his napping schedule, the Embedded system will then wake them up in the approprate ammount of time. The device will act as an alarm set to the right ammount of time for a comfortable, efficient, and healthy nap. 
+Our Project needs to solve the issue of getting the right amount of sleep. We will do this by looking up appropriate information pertaining to what is the right amount of time a person needs in order to nap, and feel fully rested. Based on this information we will program the device to sound an alarm afterr the designated amount of time. Once the user selects the amount of time that works for his napping schedule, the Embedded system will then wake them up in the approprate amount of time. The device will act as an alarm set to the right amount of time for a comfortable, efficient, and healthy nap, that works for the user's schedule. 
 
 ## Initial Design Plan
 *[Fritzing website](http://fritzing.org/home/ "Fritzing website" (for our diagram)*
 
 ## Outline 
 - Hardware 
-  - There will be a timer/clock, and device for sound connected to our Arduino divice. 
-  - This will help us to deced the appropiate ammount of time on the timer, and program it so that the alarm goes off when 
-    the time is out 
+  - Timer/clock display
+  - Buzzer for sound
+  - Our Arduino device
+  - Buttons for users to select their nap time
+  - Button to shut off the alarm
     
 - Code 
   - Function for the timer 
   - function for button press 
   - function for the sound 
-  - A function to start the timmer when the button is pressed
+  - A function to start the timer when the button is pressed
   - A function to start the sound when the timer runs out 
   - A function to stop the sound either when the button is pressed again, or after a certain amount of beeps 
 
@@ -50,7 +52,7 @@ innovations that were not specifically required by the assignment.
 This section should be no more than three paragraphs.
 
 ## Instructions
-Our product is very simple. Simply press the button that corresponds to the length of time that you have available to nap.  The timer will automatically start, and you can begin to nap.
+Our product is very simple. Simply press the button that corresponds to the length of time that you have available to nap. The timer will automatically start, and you can begin to nap. You can monitor how much time you have left in your nap with the timer display. Once the alarm rings, press the stop button to shut off the sound.
 
 ## Errors and Constraints
 *You'll complete this part at the end of the project.*
