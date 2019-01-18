@@ -11,14 +11,15 @@ Too often, refusing to nap will simply have you falling asleep at your desk, whi
 
 ## Initial Design Plan
 *[Fritzing website](http://fritzing.org/home/ "Fritzing website" (for our diagram)*
+For our intitial design plan, we have decided to use five buttons, all as inputs.  Four of the buttons will be used for the user to select the appropriate amount of time.  These times will be 10 minutes, 20 minutes, 60 minutes, and 90 minutes.  For example, if the 10 minute button is pressed, the ten minute timer will begin and the remaining time will be displayed on the digital display (output).  When the timer hits zero, the buzzer (output) will sound until the fifth button, the stop button, is pressed.  The stop button can also be used as a reset button, in case the wrong button is pushed, or the user wakes up earlier than anticipated.
 
 ## Outline 
 - Hardware 
   - Timer/clock display
   - Buzzer for sound
   - Our Arduino device
-  - Buttons for users to select their nap time
-  - Button to shut off the alarm
+  - (4) Buttons for users to select their nap time
+  - (1) Button to shut off the alarm
     
 - Code 
   - Function for the timer 
