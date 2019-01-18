@@ -7,7 +7,7 @@
 ---
 ## Purpose
 
-Our Project needs to solve the issue of getting the right amount of sleep. We will do this by looking up appropriate information pertaining to what is the right amount of time a person needs in order to nap, and feel fully rested. Based on this information we will program the device to sound an alarm afterr the designated amount of time. Once the user selects the amount of time that works for his napping schedule, the Embedded system will then wake them up in the approprate amount of time. The device will act as an alarm set to the right amount of time for a comfortable, efficient, and healthy nap, that works for the user's schedule. 
+Too often, refusing to nap will simply have you falling asleep at your desk, while napping for the wrong amount of time may make you groggy and disoriented upon awakening. Our product will solve the issue of being able to get the right amount of sleep during a nap. We will do this by looking up appropriate information pertaining to what is the right amount of time a person needs in order to nap, and feel fully rested. Based on this information we will program the device to sound an alarm afterr the designated amount of time. Once the user selects the amount of time that works for his napping schedule, the Embedded system will then wake them up in the approprate amount of time. The device will act as an alarm set to the right amount of time for a comfortable, efficient, and healthy nap, that works for the user's schedule. 
 
 ## Initial Design Plan
 *[Fritzing website](http://fritzing.org/home/ "Fritzing website" (for our diagram)*
