@@ -7,7 +7,7 @@
 ---
 ## Purpose
 
-Our Project needs to solve the issue of getting the right ammount of sleep. We will do this by looking up appropriate information pertaining to what is the right ammount of time a person needs in order to nap, and feel fully rested. The Embedded system will then wake them up in the approprate ammount of time. The device will act as an alarm set to the right ammount of time for a comfortable, and healthy nap. 
+Our Project needs to solve the issue of getting the right ammount of sleep. We will do this by looking up appropriate information pertaining to what is the right ammount of time a person needs in order to nap, and feel fully rested. Once the user selects the amount of time that works for his napping schedule, the Embedded system will then wake them up in the approprate ammount of time. The device will act as an alarm set to the right ammount of time for a comfortable, efficient, and healthy nap. 
 
 ## Initial Design Plan
 *[Fritzing website](http://fritzing.org/home/ "Fritzing website" (for our diagram)*
@@ -50,8 +50,7 @@ innovations that were not specifically required by the assignment.
 This section should be no more than three paragraphs.
 
 ## Instructions
-Explain how to use your product. 
-This section should THOROUGHLY describe its usage (i.e., more than just "Push start").
+Our product is very simple. Simply press the button that corresponds to the length of time that you have available to nap.  The timer will automatically start, and you can begin to nap.
 
 ## Errors and Constraints
 *You'll complete this part at the end of the project.*
@@ -76,6 +75,9 @@ as well as celebratory of what was achieved.
 
 https://github.com/2019-Spring-CSC-386/p00-project-1-martinjoh-hughesje/blob/master/example-README.md
 https://www.google.com/search?q=dehydration+sensor&client=firefox-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiU4fLuzePfAhWRUt8KHRFaCKIQ_AUIDygC&biw=1366&bih=664
+https://www.sleep.org/articles/how-long-to-nap/
+https://www.sleep.org/topic/age/
+https://www.scienceofpeople.com/science-perfect-nap/
 
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
