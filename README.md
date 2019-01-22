@@ -84,6 +84,8 @@ https://www.scienceofpeople.com/science-perfect-nap/
 https://www.arduino.cc/en/tutorial/button
 https://www.arduino.cc/en/Tutorial/HelloWorld
 https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay
+https://www.google.com/search?client=firefox-b-ab&biw=1366&bih=664&tbm=isch&sa=1&ei=xUNHXJ7iBJKq_QbZ7I9o&q=pin+out+for+lcd+display+screen+1602zfa&oq=pin+out+for+lcd+display+screen+1602zfa&gs_l=img.3...272949.280381..281327...0.0..0.267.716.7j0j1......1....1..gws-wiz-img.PbAqIN70q18#imgrc=fD4tazEbutPbnM:
+
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
 Assign points to each team member in each category, based on their contribution to the team. 
