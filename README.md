@@ -81,7 +81,9 @@ https://www.google.com/search?q=dehydration+sensor&client=firefox-b-ab&source=ln
 https://www.sleep.org/articles/how-long-to-nap/
 https://www.sleep.org/topic/age/
 https://www.scienceofpeople.com/science-perfect-nap/
-
+https://www.arduino.cc/en/tutorial/button
+https://www.arduino.cc/en/Tutorial/HelloWorld
+https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay
 ## Final Self-Evaluations
 *You'll complete this part at the end of the project. 
 Assign points to each team member in each category, based on their contribution to the team. 
