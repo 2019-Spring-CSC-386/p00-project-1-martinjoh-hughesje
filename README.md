@@ -1,4 +1,11 @@
 # Nap Time
+```diff
+- Interesting idea, and interesting choice for user inputs with the 5 buttons.
+- Great job doing your research, and documenting it into the readme.
+- References section isn't formatted correctly for Markdown (look at it in browser, outside of edit mode). 
+- Each reference should have a sentence describing what you're using/used it for.
+- Remove all help text (mostly in italics), and sample images. This should be your writing ONLY. 
+```
 
 **Author(s)**: Jenna Hughes and John Martin
 
