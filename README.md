@@ -32,7 +32,7 @@ For our intitial design plan, we have decided to use five buttons, all as inputs
 
 **Sample image**:
 
-![A sample image to show how to add one to a repo](images/example.png "A sample image. This is the text that appears.")
+![A sample image to show how to add one to a repo](desktop/20190124_111548.jpg "A sample image. This is the text that appears.")
 
 **NOTE**: Your initial design plan may not fully reflect your final product,
 as projects evolve over time.
