@@ -123,10 +123,5 @@ You can't give both people 6 points each though, as the sum exceeds 10.
 *Partner 2 (replace this with your name): 0-10*
 
 
----
-**A Note from Scott to You**
-
-While I expect this project to have issues, one
-thing to keep in mind is HAVE FUN with it! Create a product that
-expresses your personal interests. Break up the writing so it’s not so burdensome.
-We will have a live demo sessions at the end of the project to celebrate your accomplishments.
+What's Next For Us:
+Figure out how the LCD works. Work on coding. Build a while loop in order to have the stop button.
