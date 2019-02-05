@@ -1,3 +1,11 @@
+// https://forum.arduino.cc/index.php?topic=387784.0 - same code here just in the forum 
+// I have not adapted this to our arduino, so I am not exactly sure how it will work, but you see what it does
+// the forum should have more info.
+//
+//
+//
+
+
 #include <LiquidCrystal.h>
 // TIME VARIABLES
 int hours = 0; // start hours
