@@ -54,14 +54,14 @@ Our product is very simple. Simply press the button that corresponds to the leng
 ## Errors and Constraints
 -  It does not display the amount of time we have left 
 
-- stop button doesn't work how we intended, you have to press it in order to choose another button after making an initial section, but it does not just stop the action of the button that has already been pressed.
+- Stop button doesn't work how we intended, you have to press it in order to choose another button after making an initial section, but it does not just stop the action of the button that has already been pressed.  It also does not stop the buzzer.
 
 ## Reflection
 
 This project taught us a lot about trying to understand new topics. We had to learn how to work with buttons, buzzers, and displays
 using the Arduino. We discovered more possibilities with GIT, and this was a great experience for working as a team. There was a lot of wiring for the Arduino, which made us have to pay close attention to what was changing and how it was changing. 
 
-It was really hard for us to get the stop button to work because there was no way to change the value like we wanted. Scheduling to meet  with each other was hard, but we overcame that challenge by using GIT effectively. We had tons of fun, because we figured out so much by looking through information. I think this project pushed us to think out side of the  
+It was really hard for us to get the stop button to work because there was no way to change the value like we wanted. Scheduling to meet  with each other was hard, but we overcame that challenge by using GIT effectively. We had tons of fun, because we figured out so much by looking through information. I think this project pushed us to think out side of the  box.
 
 ## References
 
