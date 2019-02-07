@@ -31,12 +31,10 @@ For our intitial design plan, we have decided to use five buttons, all as inputs
 
 **Sample image**:
 
-![A sample image to show how to add one to a repo](images/example.png "A sample image. This is the text that appears.")
-
-**NOTE**: Your initial design plan may not fully reflect your final product,
-as projects evolve over time.
+![A sample image to show how to add one to a repo](/20190124_111548.jpg "A sample image. This is the text that appears.")
 
 ## Files
+
 - Autoscroll.ino : This will help us to understand how to make autoscroll work on Arduino. 
 - Button.ino : This file will help us to understand how to use the button on Arduino. 
 - TimerHelp.ino: this file will help us to understand exactly how to work with time on the Arduino. 
@@ -69,21 +67,24 @@ It was really hard for us to get the stop button to work because there was no wa
 
 ## References
 
-https://github.com/2019-Spring-CSC-386/p00-project-1-martinjoh-hughesje/blob/master/example-README.md
+https://github.com/2019-Spring-CSC-386/p00-project-1-martinjoh-hughesje/blob/master/example-README.md The original README file that Scott provided us with as a guide.
 
-https://www.google.com/search?q=dehydration+sensor&client=firefox-bab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiU4fLuzePfAhWRUt8KHRFaCKIQ_AUIDygC&biw=1366&bih=664
+https://www.google.com/search?q=dehydration+sensor&client=firefox-bab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiU4fLuzePfAhWRUt8KHRFaCKIQ_AUIDygC&biw=1366&bih=664 Researching if it was possible to track dehydration through sensors.
 
-https://www.sleep.org/articles/how-long-to-nap/
+https://www.sleep.org/articles/how-long-to-nap/ Looking at articles on healthy napping times.
 
-https://www.sleep.org/topic/age/
+https://www.sleep.org/topic/age/ Looking at healthy naps for our age group.
 
-https://www.scienceofpeople.com/science-perfect-nap/
+https://www.scienceofpeople.com/science-perfect-nap/ Comparing different sites to make sure that appropriate nap times are consistent.
 
-https://www.arduino.cc/en/tutorial/button
+https://www.arduino.cc/en/tutorial/button Code used to help us work the button.
 
-https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay
 
-https://www.google.com/search?client=firefox-b-ab&biw=1366&bih=664&tbm=isch&sa=1&ei=xUNHXJ7iBJKq_QbZ7I9o&q=pin+out+for+lcd+display+screen+1602zfa&oq=pin+out+for+lcd+display+screen+1602zfa&gs_l=img.3...272949.280381..281327...0.0..0.267.716.7j0j1......1....1..gws-wiz-img.PbAqIN70q18#imgrc=fD4tazEbutPbnM:
+https://www.arduino.cc/en/Tutorial/HelloWorld Code used to help us with the LCD.
+
+https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay Code used to help us understand the LCD.
+
+https://www.google.com/search?client=firefox-b-ab&biw=1366&bih=664&tbm=isch&sa=1&ei=xUNHXJ7iBJKq_QbZ7I9o&q=pin+out+for+lcd+display+screen+1602zfa&oq=pin+out+for+lcd+display+screen+1602zfa&gs_l=img.3...272949.280381..281327...0.0..0.267.716.7j0j1......1....1..gws-wiz-img.PbAqIN70q18#imgrc=fD4tazEbutPbnM: Code used to help us wire up the LCD.
 
 https://www.arduino.cc/en/Tutorial/HelloWorld
 
