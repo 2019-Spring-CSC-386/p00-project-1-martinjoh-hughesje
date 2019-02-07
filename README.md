@@ -10,7 +10,6 @@
 Too often, refusing to nap will simply have you falling asleep at your desk, while napping for the wrong amount of time may make you groggy and disoriented upon awakening. Our product will solve the issue of being able to get the right amount of sleep during a nap. We will do this by looking up appropriate information pertaining to what is the right amount of time a person needs in order to nap, and feel fully rested. Based on this information we will program the device to sound an alarm afterr the designated amount of time. Once the user selects the amount of time that works for his napping schedule, the Embedded system will then wake them up in the approprate amount of time. The device will act as an alarm set to the right amount of time for a comfortable, efficient, and healthy nap, that works for the user's schedule. 
 
 ## Initial Design Plan
-*[Fritzing website](http://fritzing.org/home/ "Fritzing website" (for our diagram)*
 For our intitial design plan, we have decided to use five buttons, all as inputs.  Four of the buttons will be used for the user to select the appropriate amount of time.  These times will be 10 minutes, 20 minutes, 60 minutes, and 90 minutes.  For example, if the 10 minute button is pressed, the ten minute timer will begin and the remaining time will be displayed on the digital display (output).  When the timer hits zero, the buzzer (output) will sound until the fifth button, the stop button, is pressed.  The stop button can also be used as a reset button, in case the wrong button is pushed, or the user wakes up earlier than anticipated.
 
 ## Outline 
@@ -32,15 +31,13 @@ For our intitial design plan, we have decided to use five buttons, all as inputs
 
 **Sample image**:
 
-![A sample image to show how to add one to a repo](images/example.png "A sample image. This is the text that appears.")
-
-**NOTE**: Your initial design plan may not fully reflect your final product,
-as projects evolve over time.
+![A sample image to show how to add one to a repo](/20190124_111548.jpg "A sample image. This is the text that appears.")
 
 ## Files
 - Buzzer_code.ino : This will help us to understand how to make sounds using the Arduino. 
 - Button.ino : This file will help us to understand how to use the button on Arduino
-- TimeCheck.ino: this file will help us to understand exactly how to work with time on the Arduino. 
+- TimeCheck.ino: This file will help us to understand exactly how to work with time on the Arduino.
+- CodeStart.ino: This file will contain the code which will run our embedded system.
 
 ## Summary
 *You'll complete this part at the end of the project.*
@@ -76,21 +73,24 @@ as well as celebratory of what was achieved.
 ## References
 *Start this section at the beginning of the project, and update it throughout.*
 
-https://github.com/2019-Spring-CSC-386/p00-project-1-martinjoh-hughesje/blob/master/example-README.md
+https://github.com/2019-Spring-CSC-386/p00-project-1-martinjoh-hughesje/blob/master/example-README.md The original README file that Scott provided us with as a guide.
 
-https://www.google.com/search?q=dehydration+sensor&client=firefox-bab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiU4fLuzePfAhWRUt8KHRFaCKIQ_AUIDygC&biw=1366&bih=664
+https://www.google.com/search?q=dehydration+sensor&client=firefox-bab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiU4fLuzePfAhWRUt8KHRFaCKIQ_AUIDygC&biw=1366&bih=664 Researching if it was possible to track dehydration through sensors.
 
-https://www.sleep.org/articles/how-long-to-nap/
+https://www.sleep.org/articles/how-long-to-nap/ Looking at articles on healthy napping times.
 
-https://www.sleep.org/topic/age/
+https://www.sleep.org/topic/age/ Looking at healthy naps for our age group.
 
-https://www.scienceofpeople.com/science-perfect-nap/
+https://www.scienceofpeople.com/science-perfect-nap/ Comparing different sites to make sure that appropriate nap times are consistent.
 
-https://www.arduino.cc/en/tutorial/button
+https://www.arduino.cc/en/tutorial/button Code used to help us work the button.
 
-https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay
 
-https://www.google.com/search?client=firefox-b-ab&biw=1366&bih=664&tbm=isch&sa=1&ei=xUNHXJ7iBJKq_QbZ7I9o&q=pin+out+for+lcd+display+screen+1602zfa&oq=pin+out+for+lcd+display+screen+1602zfa&gs_l=img.3...272949.280381..281327...0.0..0.267.716.7j0j1......1....1..gws-wiz-img.PbAqIN70q18#imgrc=fD4tazEbutPbnM:
+https://www.arduino.cc/en/Tutorial/HelloWorld Code used to help us with the LCD.
+
+https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay Code used to help us understand the LCD.
+
+https://www.google.com/search?client=firefox-b-ab&biw=1366&bih=664&tbm=isch&sa=1&ei=xUNHXJ7iBJKq_QbZ7I9o&q=pin+out+for+lcd+display+screen+1602zfa&oq=pin+out+for+lcd+display+screen+1602zfa&gs_l=img.3...272949.280381..281327...0.0..0.267.716.7j0j1......1....1..gws-wiz-img.PbAqIN70q18#imgrc=fD4tazEbutPbnM: Code used to help us wire up the LCD.
 
 https://www.arduino.cc/en/Tutorial/HelloWorld
 
@@ -131,12 +131,3 @@ You can't give both people 6 points each though, as the sum exceeds 10.
 *Partner 1 (replace this with your name): 0-10*
 
 *Partner 2 (replace this with your name): 0-10*
-
-
----
-**A Note from Scott to You**
-
-While I expect this project to have issues, one
-thing to keep in mind is HAVE FUN with it! Create a product that
-expresses your personal interests. Break up the writing so it’s not so burdensome.
-We will have a live demo sessions at the end of the project to celebrate your accomplishments.
