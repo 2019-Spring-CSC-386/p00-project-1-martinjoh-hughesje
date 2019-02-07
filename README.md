@@ -7,7 +7,7 @@
 ---
 ## Purpose
 
-Too often, refusing to nap will simply have you falling asleep at your desk, while napping for the wrong amount of time may make you groggy and disoriented upon awakening. Our product will solve the issue of being able to get the right amount of sleep during a nap. We will do this by looking up appropriate information pertaining to what is the right amount of time a person needs in order to nap, and feel fully rested. Based on this information we will program the device to sound an alarm afterr the designated amount of time. Once the user selects the amount of time that works for his napping schedule, the Embedded system will then wake them up in the approprate amount of time. The device will act as an alarm set to the right amount of time for a comfortable, efficient, and healthy nap, that works for the user's schedule. 
+Too often, refusing to nap will simply have you falling asleep at your desk, while napping for the wrong amount of time may make you groggy and disoriented upon awakening. Our product will solve the issue of being able to get the right amount of sleep during a nap. We will do this by looking up appropriate information pertaining to what is the right amount of time a person needs in order to nap, and feel fully rested. Based on this information we will program the device to sound an alarm after the designated amount of time. Once the user selects the amount of time that works for his napping schedule, the Embedded system will then wake them up in the approprate amount of time. The device will act as an alarm set to the right amount of time for a comfortable, efficient, and healthy nap, that works for the user's schedule. 
 
 ## Initial Design Plan
 For our intitial design plan, we have decided to use five buttons, all as inputs.  Four of the buttons will be used for the user to select the appropriate amount of time.  These times will be 10 minutes, 20 minutes, 60 minutes, and 90 minutes.  For example, if the 10 minute button is pressed, the ten minute timer will begin and the remaining time will be displayed on the digital display (output).  When the timer hits zero, the buzzer (output) will sound until the fifth button, the stop button, is pressed.  The stop button can also be used as a reset button, in case the wrong button is pushed, or the user wakes up earlier than anticipated.
@@ -34,44 +34,38 @@ For our intitial design plan, we have decided to use five buttons, all as inputs
 ![A sample image to show how to add one to a repo](/20190124_111548.jpg "A sample image. This is the text that appears.")
 
 ## Files
-- Buzzer_code.ino : This will help us to understand how to make sounds using the Arduino. 
-- Button.ino : This file will help us to understand how to use the button on Arduino
-- TimeCheck.ino: This file will help us to understand exactly how to work with time on the Arduino.
-- CodeStart.ino: This file will contain the code which will run our embedded system.
+
+- Autoscroll.ino : This will help us to understand how to make autoscroll work on Arduino. 
+- Button.ino : This file will help us to understand how to use the button on Arduino. 
+- TimerHelp.ino: this file will help us to understand exactly how to work with time on the Arduino. 
+- codestart.ion: This file is a start to our code that took influence for helper code we found. 
 
 ## Summary
-*You'll complete this part at the end of the project.*
+The design was to include 5 buttons, and each button would have a different set amount of time. There is a 10 minute button, 
+20 minute button, 60 minute button, and 90 minute button. There is also a stop button just in case the user wakes up early. We also had 
+to try and work with a Liquid Crystal Display (LCD), in order to display the sleep time, and time remaining. 
 
-Provide a brief summary description of the design and implementation,
-including how much your initial design plan evolved, the final result
-you achieved and the amount of time you spent as a programmer in
-accomplishing these results, including any challenges overcome and
-innovations that were not specifically required by the assignment.
-This section should be no more than three paragraphs.
+One of the first problems we encountered was trying to get the LCD to work properly. We later realized that we did not have a 
+potentiometer. The buttons would also send a surge to our computers which was resolved by adding resistors to each button. 
+The next big challenges came when we wanted to understand how to make the LCD display when we pressed the button. Eventually we resolved most of our issues, and our program displays The time the person has to sleep, and plays a sound after the time 
+is up. We probably spent about 14 hours working on this project.
 
 ## Instructions
 Our product is very simple. Simply press the button that corresponds to the length of time that you have available to nap. The timer will automatically start, and you can begin to nap. You can monitor how much time you have left in your nap with the timer display. Once the alarm rings, press the stop button to shut off the sound.
 
 ## Errors and Constraints
-*You'll complete this part at the end of the project.*
+-  It does not display the amount of time we have left 
 
-Every program has bugs. Use this section to create a bullet list of
-all known errors and deficiencies that remain in your product. 
-Also, list any constraints that must exist for your product to work 
-(e.g., Only works in low light situations).
+- stop button doesn't work how we intended, you have to press it in order to choose another button after making an initial section, but it does not just stop the action of the button that has already been pressed.
 
 ## Reflection
-*You'll complete this part at the end of the project.*
 
-Write 2 - 4 paragraphs on your reactions to the final project. 
-Your reflection should be thoughtful and reflective. 
-It is NOT a report about WHAT you did. 
-Instead, it's a look back at what you learned by doing this project.
-It should be critical of shortcomings (yours, as well as the instructors/assignments) 
-as well as celebratory of what was achieved.
+This project taught us a lot about trying to understand new topics. We had to learn how to work with buttons, buzzers, and displays
+using the Arduino. We discovered more possibilities with GIT, and this was a great experience for working as a team. There was a lot of wiring for the Arduino, which made us have to pay close attention to what was changing and how it was changing. 
+
+It was really hard for us to get the stop button to work because there was no way to change the value like we wanted. Scheduling to meet  with each other was hard, but we overcame that challenge by using GIT effectively. We had tons of fun, because we figured out so much by looking through information. I think this project pushed us to think out side of the  
 
 ## References
-*Start this section at the beginning of the project, and update it throughout.*
 
 https://github.com/2019-Spring-CSC-386/p00-project-1-martinjoh-hughesje/blob/master/example-README.md The original README file that Scott provided us with as a guide.
 
@@ -102,32 +96,28 @@ https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/
 
 
 ## Final Self-Evaluations
-*You'll complete this part at the end of the project. 
-Assign points to each team member in each category, based on their contribution to the team. 
-The sum of all member's points in each category cannot exceed 10. 
-For example, for Coding, Partner 1 could get 7 points, and Partner 2 gets 3 points. 
-You can't give both people 6 points each though, as the sum exceeds 10.
 
 ### Ideation, Brainstorming, Design:
 
-*Partner 1 (replace this with your name): 0-10*
+*Partner 1 (Jenna Hughes): 5
 
-*Partner 2 (replace this with your name): 0-10*
+*Partner 2 (John Martin ): 5
 
 ### Code creation: 
 
-*Partner 1 (replace this with your name): 0-10*
+*Partner 1 (Jenna Hughes): 5
 
-*Partner 2 (replace this with your name): 0-10*
+*Partner 2 (John Martin ): 5
 
 ### Documentation creation:
 
-*Partner 1 (replace this with your name): 0-10*
+*Partner 1 (Jenna Hughes): 5
 
-*Partner 2 (replace this with your name): 0-10*
+*Partner 2 (John Martin ): 5
 
 ### Teamwork & Participation:
 
-*Partner 1 (replace this with your name): 0-10*
+*Partner 1 (Jenna Hughes): 5
 
-*Partner 2 (replace this with your name): 0-10*
+*Partner 2 (John Martin ): 5
+
