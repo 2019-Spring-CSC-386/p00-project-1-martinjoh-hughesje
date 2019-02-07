@@ -34,12 +34,10 @@ For our intitial design plan, we have decided to use five buttons, all as inputs
 ![A sample image to show how to add one to a repo](/20190124_111548.jpg "A sample image. This is the text that appears.")
 
 ## Files
-
-- Autoscroll.ino : This will help us to understand how to make autoscroll work on Arduino. 
-- Button.ino : This file will help us to understand how to use the button on Arduino. 
-- TimerHelp.ino: this file will help us to understand exactly how to work with time on the Arduino. 
-- codestart.ion: This file is a start to our code that took influence for helper code we found. 
-
+- Nap_Time_Demo_Code (For the Demo)
+- Nap_Time_Final_Code (Final Project)
+ 
+ 
 ## Summary
 The design was to include 5 buttons, and each button would have a different set amount of time. There is a 10 minute button, 
 20 minute button, 60 minute button, and 90 minute button. There is also a stop button just in case the user wakes up early. We also had 
@@ -93,6 +91,14 @@ https://www.arduino.cc/en/tutorial/pushbutton
 https://arduino.stackexchange.com/questions/34817/multiple-push-buttons
 
 https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/
+
+- Autoscroll.ino : This will help us to understand how to make autoscroll work on Arduino. 
+
+- Button.ino : This file will help us to understand how to use the button on Arduino. 
+
+- TimerHelp.ino: this file will help us to understand exactly how to work with time on the Arduino. 
+
+- codestart.ion: This file is a start to our code that took influence for helper code we found.
 
 
 ## Final Self-Evaluations
